@@ -78,7 +78,7 @@
     float: right;
 }
 
-.newpost_page
+.center_box
 {
     border: 6px solid #000000;
     padding: 50px;
@@ -89,13 +89,13 @@
 }
 
 
-.blank_newpost1
+.blank_for_center
 {
     grid-col-start: 1;
     grid-col-end: 5;
 }
 
-.devide_newpost
+.devide_center
 {
   display: grid;
   grid-template: 1fr/ 4fr 4fr 4fr;

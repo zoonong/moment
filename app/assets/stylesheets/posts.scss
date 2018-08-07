@@ -9,14 +9,14 @@
     padding: 50px;
 
 }
-.content1
+.moment_logo
 {
     float: left;
     grid-col-start: 2;
     grid-col-end: 8;
 }
 
-.content2
+.login_box
 {
     border: 6px solid #000000;
     padding: 50px;
@@ -63,7 +63,7 @@
     grid-col-end: 9;
 }
 
-.devide_2
+.devide_login
 {
     display: grid;
   grid-template: 1fr / 1fr 6fr 1fr 3fr 1fr;
@@ -75,4 +75,28 @@
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+    float: right;
+}
+
+.newpost_page
+{
+    border: 6px solid #000000;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: center;
+    grid-col-start: 5;
+    grid-col-end: 9;
+}
+
+
+.blank_newpost1
+{
+    grid-col-start: 1;
+    grid-col-end: 5;
+}
+
+.devide_newpost
+{
+  display: grid;
+  grid-template: 1fr/ 4fr 4fr 4fr;
 }
